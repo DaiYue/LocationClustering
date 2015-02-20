@@ -11,7 +11,7 @@
     
 ## 接口及参数列表
 
-def cluster(jsonArray, maxClusterRadius=0.00125, samplingInteval=10000, minValidClusterSize=30,
+    def cluster(jsonArray, maxClusterRadius=0.00125, samplingInteval=10000, minValidClusterSize=30,
                        timeRanges=defaultTimeRanges, tagOfTimeRanges=defaultTagOfTimeRanges):
 
 1. jsonArray: 数据源。格式示例见`testLocation.json`
